@@ -7,7 +7,7 @@ servsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #host = 'tuipaqui'
 #host = socket.gethostbyname(hnam)
 host = socket.gethostname()
-port = 444
+port = 469
 
 servsock.bind((host, port))
 servsock.listen(3)
